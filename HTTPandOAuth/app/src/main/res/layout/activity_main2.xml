@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Create New Post:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/post_header"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/user_input" />
+
+    <Button
+        android:text="Submit New Post"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_plus_create_post" />
+
+    <Button
+        android:text="Get Posts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/google_plus_get_post_button" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gplus_list" />
+</LinearLayout>
